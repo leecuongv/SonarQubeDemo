@@ -17,7 +17,7 @@ public class Main {
             writeToFile("test.txt", content);
             System.out.println(readFile("test.txt"));
         }
-        
+        System.out.println("End of program");
 
     }
     //Creat a funtion to Read and a funtion to write to txt file
