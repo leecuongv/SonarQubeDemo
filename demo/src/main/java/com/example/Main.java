@@ -10,6 +10,14 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!");
         System.out.println( readFile("test.txt"));
+        String content = "This is a new line\n";
+        String text = "1";
+        if(text=="1"){
+            System.out.println("true");
+            writeToFile("test.txt", content);
+            System.out.println(readFile("test.txt"));
+        }
+        
 
     }
     //Creat a funtion to Read and a funtion to write to txt file
